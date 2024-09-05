@@ -68,7 +68,7 @@ export default function Details({ data }: any) {
       <h1 className="text-center text-2xl font-medium text-orange-200 mt-1 pb-2">Welcome, {Fname}</h1>
       {lottery_id ?
         (<div>
-          <h2 className="text-center text-2xl font-medium text-orange-200 mt-1">请截图保存，您的抽奖号码是：</h2>
+          <h2 className="text-center text-2xl font-medium text-orange-200 mt-1">您的抽奖号码是：</h2>
           <h2 className="text-center text-xl font-medium text-orange-200 pb-3">Your lottery number is: </h2>
           <div className="flex gap-3 justify-center">
             <div className="font-mono text-9xl bg-slate-200 shadow-inner rounded p-2 text-center opacity-60">{d0}</div>
