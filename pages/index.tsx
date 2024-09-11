@@ -72,12 +72,19 @@ export default function Home({ data }:any) {
   return (
     <div className='bg-MidAutumnBg h-screen flex flex-col justify-center' >
       <Nav></Nav>
+
+      <div style={{ height: '123px' }}></div>
+      <div style={{ height: '123px' }}></div>
+    {/*
       <h1 className="text-center justify-center text-2xl font-extrabold text-orange-600 mt-12 pt-0">欢迎来到UTCSSA</h1>
       <h1 className="text-center text-2xl font-extrabold text-orange-600  pt-0 mb-1">2024中秋晚会</h1>      
       <h1 className="text-center text-xl font-medium text-orange-600 mt-1">Welcome to the UTCSSA</h1>
       <h1 className="text-center text-xl font-medium text-orange-600 pt-0 pb-4">2024  Mid-Autumn Gala</h1>
+*/}
+            <div style={{ height: '123px' }}></div>
       <div className="container w-full max-w-xs bg-white bg-opacity-50 mx-auto shadow-md">
         <form className="justify-center items-center rounded px-8 pt-6 pb-4" onSubmit={handleSubmit}>
+            
             <div className="mb-4">
               <label className=" block text-orange-600 text-lg font-bold pb-2">
               请输入报名邮箱

@@ -62,6 +62,9 @@ export default function Details({ data }: any) {
   return (
     <div className='bg-MidAutumnBg h-screen flex flex-col items-center justify-center'>
       <Nav></Nav>
+      <div style={{ height: '123px' }}></div>
+      <div style={{ height: '123px' }}></div>
+      
       <div className="absolute inset-0 z-10"></div>
       <iframe src="https://giphy.com/embed/iehOstHSrp1XUYvXFZ" width="100%" height="219" className="giphy-embed absolute top-10 w-full" allowFullScreen></iframe>
       <h1 className="text-center text-3xl font-medium text-orange-600 mt-12 pt-0">您好 {Fname},</h1>
