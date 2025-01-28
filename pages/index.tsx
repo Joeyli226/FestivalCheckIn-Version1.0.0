@@ -124,7 +124,7 @@ export default function Home({ data }:any) {
         
       </div>
       <div className="container w-full max-w-xs mx-auto my-2">
-        < Link className="inline-block align-baseline font-bold text-orange-600 text-xs mt-3 mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLSdh8f5xOC6NxZmAZwlEtMtIHTFjg-V4nZs1yNsTe36gpUmIig/viewform">
+        < Link className="inline-block align-baseline font-bold text-orange-600 text-xs mt-3 mx-auto" href="https://docs.google.com/forms/d/e/1FAIpQLScoZqRbRaaAo8ZhfUJUGG4UwgM6wzf2Dlk7PbK7ST4DNHbiRw/viewform?pli=1&pli=1">
                 没有注册？点击这里。
                 <br></br>
                 Not registered? Click here.
