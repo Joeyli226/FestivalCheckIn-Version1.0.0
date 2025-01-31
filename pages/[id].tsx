@@ -30,7 +30,7 @@ export async function getServerSideProps(context: any) {
     requestBody: request_body_I,
   });
 
-  const range = 'A2:J500'; // Include columns A through J
+  const range = 'A2:K500'; // Include columns A through J
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId: process.env.SHEET_ID,
     range,
