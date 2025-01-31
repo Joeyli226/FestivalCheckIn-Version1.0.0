@@ -49,7 +49,7 @@
       setPressed(true);
       //check match for lottery number, if found then redirect
       for (let i = 0; i < data.length; i++) {
-        const emailCell = data[i][0] ? String(data[i][0]).trim().toLowerCase() : '';
+        const emailCell = data[i][8] ? String(data[i][8]).trim().toLowerCase() : '';
         if (emailCell === input.toLowerCase()) { //I
           setMatch(true);
           redirect_url += input;
