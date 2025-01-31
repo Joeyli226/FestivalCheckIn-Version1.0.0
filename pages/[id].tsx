@@ -52,8 +52,8 @@ function pad(n: string, length: number) {
 export default function Details({ data }: any) {
   const router = useRouter();
   const row = Number(router.query.info);
-  const Fname = data[row][3];
-  const lottery_id = data[row][10] ? pad(data[row][10], 3) : ''; // Lottery number is now at column J (index 9)
+  const Fname = data[row][10];
+  const lottery_id = data[row][11] ? pad(data[row][11], 3) : ''; // Lottery number is now at column J (index 9)
 
   const d0 = lottery_id.charAt(0);
   const d1 = lottery_id.charAt(1);
