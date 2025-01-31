@@ -17,7 +17,7 @@ export async function getServerSideProps(context: any) {
 
   // Update check-in status at column I
   const request_body_I = {
-    "range": "I" + sheet_row,
+    "range": "J" + sheet_row,
     "values": [
       [true]
     ]
@@ -25,7 +25,7 @@ export async function getServerSideProps(context: any) {
 
   await sheets.spreadsheets.values.update({
     spreadsheetId: process.env.SHEET_ID,
-    range: "I" + sheet_row, // Check-in is now at column I
+    range: "J" + sheet_row, // Check-in is now at column I
     valueInputOption: "USER_ENTERED",
     requestBody: request_body_I,
   });
